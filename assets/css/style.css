@@ -1,1 +1,59 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+#navigationbar li {
+  float: right;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+#navigationbar a {
+  text-decoration: none;
+  color: #000;
+  margin: 3%;
+  padding: 4%;
+}
+
+#navigationbar{
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+    white-space: nowrap;
+}
+
+  
+  footer {
+    height: 150px;
+  }
+  
+  .social-networks {
+    text-align: center;
+  }
+  
+  .social-networks i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 2%;
+    color: black;
+   }
+  
+  .social-networks li {
+    display: inline;
+  }
+  
+  .social-networks li a{
+    text-decoration:none;
+  }
+  
+  footer p {
+    font-size: 75%;
+    color: black;
+    text-align: center;
+  }
+  
