@@ -27,6 +27,17 @@
     white-space: nowrap;
 }
 
+
+.signup-form {
+  margin-top:150px;
+  color:#fff;
+  background-color:rgba(60, 60, 60, 0.6);
+  max-width:200px;
+  position:absolute;
+  left:10%;
+  padding:30px;
+}
+
   
   footer {
     height: 150px;
