@@ -1,57 +1,100 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
+*{
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+header {
+  background-color: #ccbdbd; /* Background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Padding around the content */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logohomelink {
+  flex: 1;
+}
+
+.logohomelink img {
+  max-width: 100%;
 }
 
 
-#navigationbar li {
-  float: right;
-  list-style-type: none;
-  margin-right: 30px;
+.logohomelink img {
+  width: 100px; /* Adjust the width of the logo image */
+  height: auto; /* Maintain aspect ratio */
 }
 
-#navigationbar a {
+.rightnavigationbar {
+  flex: 1;
+  text-align: right;
+  display: flex; /* Make the links display horizontally */
+  justify-content: flex-end; /* Align links to the right */
+}
+
+.rightnavigationbar a {
+  color: #fff;
   text-decoration: none;
-  color: #000;
-  margin: 3%;
-  padding: 4%;
+  margin-left: 20px;
 }
 
-#navigationbar{
-    font-size: 110%;
-    list-style-type: none;
-    letter-spacing: 4px;
-    white-space: nowrap;
+.rightnavigationbar li {
+  display: inline-block; /* Display links horizontally */
+  list-style-type: none; /* RemoveS the bullet */
+  margin-right: 20px; /* Add right margin between items */
 }
+
+.rightnavigationbar a:first-child {
+  margin-left: 0;
+}
+
+.bandimage1 {
+    height: 200px;
+    width: 75%;
+    background-color: powderblue;
+    padding: 100px 50px;
+    margin: 50px 25px;
+  }
+
+  .bandimage1 img {
+    object-fit: contain;
+  /* or
+    object-fit: cover; */
+  } 
 
 
 .signup-form {
   margin-top:150px;
   color:#fff;
   background-color:rgba(60, 60, 60, 0.6);
-  max-width:200px;
+  max: width 700px;
   position:absolute;
   left:10%;
   padding:30px;
 }
 
-  
-  footer {
-    height: 150px;
-  }
-  
-  .social-networks {
-    text-align: center;
-  }
-  
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+}
+
+
+
   .social-networks i {
     font-size: 200%;
     margin: 1%;
     padding: 2%;
     color: black;
+    text-align: center;
    }
   
   .social-networks li {
@@ -68,3 +111,7 @@
     text-align: center;
   }
   
+  footer {
+    position: absolute
+    bottom: 0;
+  }
