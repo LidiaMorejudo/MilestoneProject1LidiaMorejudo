@@ -58,9 +58,13 @@ header {
   margin-left: 0;
 }
 
-.bandname {
+.pagetitle {
   color: #ec1c24;
   text-align: center;
+}
+
+h2 {
+  color: #ec1c24;
 }
 
 .bandimage1 {
@@ -110,15 +114,37 @@ header {
   margin-top: 10px;
 }
 
-.signup-form {
-  margin-top:150px;
-  color:#fff;
-  background-color:rgba(60, 60, 60, 0.6);
-  max: width 700px;
-  position:absolute;
-  left:10%;
-  padding:30px;
+.packages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px; /* Add space above the section */
+  margin-bottom: 50px; /* Add space below the section */
 }
+
+.packagetype {
+  width: 45%;
+  margin: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+.packagetype h2 {
+  margin-bottom: 10px; /* Add space below the h2 */
+}
+
+.packagetype p {
+  margin-top: 10px; /* Add space above the p */
+}
+
+.signup-form {
+  margin: 0 auto; /* Center the form horizontally */
+  max-width: 700px; /* Set the maximum width for the form */
+  padding: 30px; /* Add padding around the content */
+  background-color: rgba(60, 60, 60, 0.6);
+  color: #fff;
+}
+
 
 body {
   position: absolute;
