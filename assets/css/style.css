@@ -7,7 +7,7 @@
 }
 
 header {
-  background-color: #dcdcdc; /* Background color */
+  background-color: #f4dfe6; /* Background color */
   color: #fff; /* Text color */
   padding: 10px 20px; /* Padding around the content */
   display: flex;
@@ -154,7 +154,7 @@ body {
   right: 0;
   padding: 0;
   margin: 0;
-  background-color: #dcdcdc;
+  background-color: #f4dfe6;
   background-size: cover; /* Ensures the image covers the entire background */
   background-repeat: no-repeat; /* Prevents the image from repeating */
 }
