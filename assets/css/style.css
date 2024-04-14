@@ -213,6 +213,15 @@ h2 {
 }
 
 
+.signup-form textarea {
+    margin-bottom: 20px; /* You can adjust this value for larger spacing */
+}
+
+#contactdetails label,
+#contactdetails input {
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
 body {
   position: absolute;
   top: 0;
