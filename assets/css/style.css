@@ -159,3 +159,13 @@ body {
   background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
+.social-networks {
+  display: flex; /* display horizontally */
+  justify-content: center; /* Center */
+}
+
+footer {
+  display: flex; /* footer content display horizontally */
+  justify-content: center; /* Center footer horizontally */
+  align-items: center; /* Center the footer content vertically */
+}
