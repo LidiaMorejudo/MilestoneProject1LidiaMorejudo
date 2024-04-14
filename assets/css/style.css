@@ -159,31 +159,3 @@ body {
   background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
-
-
-  .social-networks i {
-    font-size: 200%;
-    margin: 1%;
-    padding: 2%;
-    color: black;
-    text-align: center;
-   }
-  
-  .social-networks li {
-    display: inline;
-  }
-  
-  .social-networks li a{
-    text-decoration:none;
-  }
-  
-  footer p {
-    font-size: 75%;
-    color: black;
-    text-align: center;
-  }
-  
-  footer {
-    position: absolute
-    bottom: 0;
-  }
