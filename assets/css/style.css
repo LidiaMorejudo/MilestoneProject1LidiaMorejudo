@@ -168,11 +168,17 @@ body {
   font-size: 150%;
   margin: 1% 13px; /* More space between the items */
   padding: 2%;
-  color: black;
+  color: #ec1c24;
  }
 
 footer {
   display: flex; /* footer content display horizontally */
   justify-content: center; /* Center footer horizontally */
   align-items: center; /* Center the footer content vertically */
+  color: #ec1c24;
+}
+
+footer p {
+  font-size: 80%; /* Make the text smaller */
+  font-weight: bold; /* Make the text bold */
 }
