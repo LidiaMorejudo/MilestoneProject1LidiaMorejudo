@@ -166,7 +166,7 @@ body {
 
 .social-networks i {
   font-size: 150%;
-  margin: 1%;
+  margin: 1% 13px; /* More space between the items */
   padding: 2%;
   color: black;
  }
