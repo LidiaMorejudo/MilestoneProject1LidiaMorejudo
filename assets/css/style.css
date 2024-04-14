@@ -7,7 +7,7 @@
 }
 
 header {
-  background-image: url('assets/img/funkylongbackground.jpg');
+  background-color: #f8f8f8;
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   background-size: cover; /* Cover the entire background */
   background-position: center; /* Center the background image */
@@ -71,6 +71,7 @@ header {
 .pagetitle {
   color: #ec1c24;
   text-align: center;
+  margin: 100px; /* Adjust the margin as needed */
 }
 
 h2 {
@@ -136,7 +137,7 @@ h2 {
 
 #gallery-carousel {
   margin-top: 100px; /* Add space above the carousel */
-  margin-bottom: 50px; /* Add space below the carousel */
+  margin-bottom: 100px; /* Add space below the carousel */
 }
 
 .gallery-slide {
@@ -147,7 +148,6 @@ h2 {
 .gallery-slide img {
   width: 30%; /* Changes size within the container. Vary to make them bigger or smaller */
   height: auto;
-
 }
 
 .active {
@@ -165,6 +165,9 @@ h2 {
   margin: 5px;
   text-align: center;
   padding: 10px;
+  display: flex; /* Add flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
 }
 
 .gallery img {
@@ -218,7 +221,7 @@ body {
   right: 0;
   padding: 0;
   margin: 0;
-  background-color: #e0e8f0;
+  background-color: #f0f0f0;
   background-size: cover; /* Ensures the image covers the entire background */
   background-repeat: no-repeat; /* Prevents the image from repeating */
 }
@@ -240,6 +243,7 @@ footer {
   justify-content: center; /* Center footer horizontally */
   align-items: center; /* Center the footer content vertically */
   color: #ec1c24;
+  margin-top: 40px;
 }
 
 footer p {
