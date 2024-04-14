@@ -120,6 +120,26 @@ h2 {
 
 /* Gallery Page Begins Below*/
 
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery-slide {
+  display: none;
+  text-align: center; /* Center the content horizontally */
+}
+
+.gallery-slide img {
+  width: 30%; /* Changes size within the container. Vary to make them bigger or smaller */
+  height: auto;
+
+}
+
+.active {
+  display: block;
+}
 
 .gallery-pictures {
   display: flex;

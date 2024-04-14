@@ -33,9 +33,14 @@
             </nav>
         </header>
 
-    <section>
-        This is Gallery
-    </section>
+        <section id="gallery-carousel" class="carousel">
+            <div class="gallery-slide">
+                <img src="assets/img/NatsingingSquare.jpg" alt="Nat the Guitar Player">
+            </div>
+            <div class="gallery-slide">
+                <img src="assets/img/katguitarfield.jpg" alt="Kat the Singer">
+            </div>
+        </section>
 
     <section class="bandmembershome">
         <div class="gallery-pictures">
@@ -72,6 +77,28 @@
           </ul>
         <p>© 2023 Kiss Me Killer All Rights Reserved</p>
       </footer>
+
+      <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.gallery-slide');
+
+        function showSlide() {
+            slides.forEach(slide => {
+                slide.style.display = 'none';
+            });
+
+            slides[currentSlide].style.display = 'block';
+            currentSlide++;
+
+            if (currentSlide >= slides.length) {
+                currentSlide = 0;
+            }
+
+            setTimeout(showSlide, 3000); // Change slide every 2 seconds (2000 milliseconds)
+        }
+
+        showSlide(); // Start the carousel
+    </script>
 
 </body>
 </html>
