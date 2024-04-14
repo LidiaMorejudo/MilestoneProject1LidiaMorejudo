@@ -58,6 +58,8 @@ header {
   margin-left: 0;
 }
 
+/* Home Page Begins Below*/
+
 .pagetitle {
   color: #ec1c24;
   text-align: center;
@@ -113,6 +115,35 @@ h2 {
 .member p {
   margin-top: 10px;
 }
+
+/* Home Page Ends Here*/
+
+/* Gallery Page Begins Below*/
+
+
+.gallery-pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery {
+  width: 45%;
+  margin: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+.gallery img {
+  max-width: 50%;
+  border-radius: 20px;
+}
+
+.gallery p {
+  margin-top: 10px;
+}
+
+/* Gallery Page Ends Here*/
 
 .packages {
   display: flex;
