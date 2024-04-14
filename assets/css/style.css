@@ -164,6 +164,13 @@ body {
   justify-content: center; /* Center */
 }
 
+.social-networks i {
+  font-size: 150%;
+  margin: 1%;
+  padding: 2%;
+  color: black;
+ }
+
 footer {
   display: flex; /* footer content display horizontally */
   justify-content: center; /* Center footer horizontally */
