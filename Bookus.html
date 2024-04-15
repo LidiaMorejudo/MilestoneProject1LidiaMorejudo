@@ -83,6 +83,7 @@
     <section id="formcontainer">
         <form class="signup-form">
             <h2>Get in touch: </h2>
+            
             <fieldset id="contactdetails">
 
                 <label for="fname">Full name:</label>
@@ -91,23 +92,28 @@
                 <input type="email" id="email" name="email" required placeholder="email@gmail.com"><br>
                 <label for="phonenumber">Enter your phone number:</label>
                 <input type="tel" id="phonenumber" name="phonenumber" pattern="[0-9]{5}-[0-9]{3}-[0-9]{3}" placeholder="00000-000-000"><br>
+
             </fieldset>
             
             <fieldset>
-            <label for="typeevent">Type of Event:</label>
-            <select name="typeevent" id="typeevent" required><br>
+                <label for="typeevent">Type of Event:</label>
+                <select name="typeevent" id="typeevent" required><br>
+                    <option value="wedding">Wedding</option>
+                    <option value="corporate">Corporate Party</option>
+                    <option value="birthday">Birthday</option>
+                    <option value="anniversary">Anniversary</option>
+                    <option value="other">Other</option>
+                </select><br>
+            </fieldset>
 
-            <option value="wedding">Wedding</option>
-            <option value="corporate">Corporate Party</option>
-            <option value="birthday">Birthday</option>
-            <option value="anniversary">Anniversary</option>
-            <option value="other">Other</option>
-            </select><br>
+            <fieldset id="wherewhen">
             <label for="venue">Venue:</label>
             <input type="text" id="venue" name="venue"><br>
             <label for="dateevent">Event date:</label>
             <input type="date" id="dateevent" name="dateevent"><br>
+            </fieldset>
 
+            <fieldset>
             <p>What package(s) are you interested in?:</p>
             <input type="radio" id="bronzepackage" name="typepackage" value="Bronze">
             <label for="bronzepackage">Bronze Package</label><br>

@@ -7,10 +7,7 @@
 }
 
 header {
-  background-color: #f8f8f8;
-  background-repeat: no-repeat; /* Prevent the background image from repeating */
-  background-size: cover; /* Cover the entire background */
-  background-position: center; /* Center the background image */
+  background-color: #f0f0f0;
   color: #fff; /* Text color */
   padding: 10px 20px; /* Padding around the content */
   display: flex;
@@ -181,6 +178,8 @@ h2 {
 
 /* Gallery Page Ends Here*/
 
+/* Bookus Page Starts Here*/
+
 .packages {
   display: flex;
   flex-wrap: wrap;
@@ -214,11 +213,16 @@ h2 {
 
 
 .signup-form textarea {
-    margin-bottom: 20px; /* You can adjust this value for larger spacing */
+    margin-bottom: 20px; /* adjust this value for larger spacing */
 }
 
 #contactdetails label,
-#contactdetails input {
+#contactdetails input, {
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+#wherewhen label,
+#wherewhen input, {
     margin-bottom: 10px; /* Adjust as needed */
 }
 
