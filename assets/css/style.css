@@ -75,6 +75,8 @@ h2 {
   color: #ec1c24;
 }
 
+/* Start of Home Page */
+
 .bandimage1 {
     height: 300px;
     display: flex;
@@ -216,15 +218,6 @@ h2 {
     margin-bottom: 20px; /* adjust this value for larger spacing */
 }
 
-#contactdetails label,
-#contactdetails input, {
-    margin-bottom: 10px; /* Adjust as needed */
-}
-
-#wherewhen label,
-#wherewhen input, {
-    margin-bottom: 10px; /* Adjust as needed */
-}
 
 body {
   position: absolute;
@@ -250,6 +243,34 @@ body {
   padding: 2%;
   color: #ec1c24;
  }
+
+ /* start of Gigs page */
+
+.gigs-pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gigs {
+  width: 45%;
+  margin: 5px;
+  text-align: center;
+  padding: 10px;
+  display: flex; /* Add flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+
+.gigs img {
+  max-width: 75%;
+  border-radius: 20px;
+}
+
+.gigs p {
+  margin-top: 10px;
+}
 
 footer {
   display: flex; /* footer content display horizontally */

@@ -83,19 +83,15 @@
     <section id="formcontainer">
         <form class="signup-form">
             <h2>Get in touch: </h2>
-            
-            <fieldset id="contactdetails">
-
-                <label for="fname">Full name:</label>
-                <input type="text" id="fname" name="fname" required placeholder="Full Name"><br>
-                <label for="email">Enter your email:</label>
-                <input type="email" id="email" name="email" required placeholder="email@gmail.com"><br>
-                <label for="phonenumber">Enter your phone number:</label>
-                <input type="tel" id="phonenumber" name="phonenumber" pattern="[0-9]{5}-[0-9]{3}-[0-9]{3}" placeholder="00000-000-000"><br>
-
-            </fieldset>
-            
+            <br><br>
             <fieldset>
+                <label for="fname">Full name:</label>
+                <input type="text" id="fname" name="fname" required placeholder="Full Name"><br><br>
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email" required placeholder="email@gmail.com"><br><br>
+                <label for="phonenumber">Enter your phone number:</label>
+                <input type="tel" id="phonenumber" name="phonenumber" pattern="[0-9]{5}-[0-9]{3}-[0-9]{3}" placeholder="00000-000-000"><br><br>
+            </fieldset>
                 <label for="typeevent">Type of Event:</label>
                 <select name="typeevent" id="typeevent" required><br>
                     <option value="wedding">Wedding</option>
@@ -103,17 +99,13 @@
                     <option value="birthday">Birthday</option>
                     <option value="anniversary">Anniversary</option>
                     <option value="other">Other</option>
-                </select><br>
-            </fieldset>
+                </select><br><br>
 
-            <fieldset id="wherewhen">
             <label for="venue">Venue:</label>
-            <input type="text" id="venue" name="venue"><br>
+            <input type="text" id="venue" name="venue"><br><br>
             <label for="dateevent">Event date:</label>
-            <input type="date" id="dateevent" name="dateevent"><br>
-            </fieldset>
+            <input type="date" id="dateevent" name="dateevent"><br><br>
 
-            <fieldset>
             <p>What package(s) are you interested in?:</p>
             <input type="radio" id="bronzepackage" name="typepackage" value="Bronze">
             <label for="bronzepackage">Bronze Package</label><br>
@@ -122,13 +114,14 @@
             <input type="radio" id="Goldpackage" name="typepackage" value="Gold">
             <label for="Goldpackage">Gold Package</label><br>
             <input type="radio" id="Platinumpackage" name="typepackage" value="Platinum">
-            <label for="Platinumpackage">Platinum Package</label><br>
+            <label for="Platinumpackage">Platinum Package</label><br><br>
   
             <label for="otherinformation">Any other information:</label><br>
   
             <textarea id="otherinformation" name="otherinformation" rows="4" cols="50" placeholder="Tell us about you and your event">
           </textarea><br>
-            </fieldset>
+
+            
             <input type="submit" value="Submit">
 
         </form>
