@@ -218,6 +218,20 @@ h2 {
     margin-bottom: 20px; /* adjust this value for larger spacing */
 }
 
+#bookingform button[type="submit"] {
+  width: 30%;
+  padding: 10px;
+  background-color: #ec1c24;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px; /* Add space above the button */
+}
+
+#bookingform button[type="submit"]:hover {
+  background-color: #ba181f;
+}
 
 body {
   position: absolute;
@@ -246,6 +260,7 @@ body {
 
  /* start of Gigs page */
 
+
 .gigs-pictures {
   display: flex;
   flex-wrap: wrap;
@@ -254,7 +269,7 @@ body {
 
 .gigs {
   width: 45%;
-  margin: 5px;
+  margin: 10px;
   text-align: center;
   padding: 10px;
   display: flex; /* Add flexbox */
@@ -264,13 +279,55 @@ body {
 
 
 .gigs img {
-  max-width: 75%;
+  max-width: 70%;
   border-radius: 20px;
 }
 
 .gigs p {
   margin-top: 10px;
 }
+
+#mailinglist {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px; /* Add more space between the mailing list and gigs-pictures */
+  margin-bottom: 50px; /* Add more space between the mailing list and gigs-pictures */
+}
+
+#mailinglist form {
+  max-width: 500px; /* Adjust the max-width as needed */
+  padding: 20px; /* Add padding around the form */
+  background-color: rgba(0, 0, 0, 0.6); /* Adjust background color as needed */
+  color: #fff;
+}
+
+#mailinglist label {
+  display: block;
+  margin-bottom: 10px; /* Add space below the label */
+}
+
+#mailinglist input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px; /* Add space below the input */
+  box-sizing: border-box; /* padding and border */
+}
+
+#mailinglist button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #ec1c24;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#mailinglist button[type="submit"]:hover {
+  background-color: #ba181f;
+}
+
+/* End of gigs */
 
 footer {
   display: flex; /* footer content display horizontally */
