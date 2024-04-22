@@ -46,6 +46,7 @@ header {
   text-decoration: none;
   margin-left: 20px;
   transition: color 0.3s; /* Add transition for smooth color change */
+  font-weight: bold;
 }
 
 .rightnavigationbar a:hover {
