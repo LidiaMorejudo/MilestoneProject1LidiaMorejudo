@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 *{
   margin:0;
@@ -125,6 +125,9 @@ h2 {
 .member p {
   margin-top: 10px;
   color: white; /* Text color */
+  max-width: 78%;
+  margin: 0 auto; /* Center the section horizontally */
+
 }
 
 /* Home Page Ends Here*/
@@ -270,6 +273,7 @@ body {
   background-color: #121212;
   background-size: cover; /* Ensures the image covers the entire background */
   background-repeat: no-repeat; /* Prevents the image from repeating */
+  font-family: 'VT323', monospace, 'Oswald', 'Lato', sans-serif;
 }
 
 .social-networks {
@@ -372,14 +376,27 @@ body {
 /* End of gigs */
 
 footer {
-  display: flex; /* footer content display horizontally */
-  justify-content: center; /* Center footer horizontally */
-  align-items: center; /* Center the footer content vertically */
+  display: flex;
+  flex-direction: column; /* Align content in a column */
+  align-items: center; /* Center horizontally */
   color: #ec1c24;
   margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex; /* Display icons horizontally */
+}
+
+.social-networks i {
+  font-size: 150%;
+  margin: 1% 13px; /* More space between the items */
+  padding: 2%;
+  color: #ec1c24;
 }
 
 footer p {
-  font-size: 80%; /* Make the text smaller */
-  font-weight: bold; /* Make the text bold */
+  font-size: 80%;
+  font-weight: bold;
 }
+
