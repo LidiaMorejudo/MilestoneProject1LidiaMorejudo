@@ -221,9 +221,27 @@ h2 {
   color: #fff;
 }
 
+.signup-form fieldset label {
+  display: block; /* Make labels display as block elements */
+  margin-bottom: 10px; /* Add space below each label */
+}
+
+.signup-form fieldset input[type="text"],
+.signup-form fieldset input[type="email"],
+.signup-form fieldset input[type="tel"],
+.signup-form fieldset select,
+.signup-form fieldset textarea {
+  width: 100%; /* Make inputs take up full width */
+  padding: 10px; /* Add padding */
+  margin-bottom: 20px; /* Add space below each input */
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+
 
 .signup-form textarea {
     margin-bottom: 20px; /* adjust this value for larger spacing */
+    width: 100%; /* Make inputs take up full width */
 }
 
 #bookingform button[type="submit"] {
