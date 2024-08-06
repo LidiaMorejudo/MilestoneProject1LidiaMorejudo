@@ -17,19 +17,27 @@ o	Thanks to the navigation bar and the logo link, users can easily navigate thro
 •	The landing page image
 o	The landing page includes several pages of the band. First, the user is greeted by a picture of the band in full playing with a text introduction under it. 
  
+![ Images from the Website](/assets/img/LandingPageImage.png)
+
+
 •	Members of the Band section
 o	Below the main image and brief history of the band. The visitor will see individual pictures of each of the band members with a brief introduction to each player and their personality.
 o	This section will help the visitor get a better understanding of the motivations and style of each member, and hopefully get a flavour of what the band will be like if they are new to it, or get a glimpse into their favourite band member’s styles and personalities for fans.
  
+ ![ Images from the Website](/assets/img/Landingmembersband.png)
 
 •	The Footer
 o	The footer section includes links to the relevant social media sites for Kiss me Killer. The links will open to a new tab to allow easy navigation for the user.
 o	The footer is valuable to the user as it encourages them to keep connected via social media
  
+![ Images from the Website](/assets/img/Footer.png)
+
 •	Gallery
 o	The gallery provides images from members of the band in different situations, as well as posters. There are six images in total, and at the top they all appear in a carousel. 
 o	This section provides the users and fans with more visual input into the band and what their performances are like. 
  
+![ Images from the Website](/assets/img/Gallery.png)
+
 •	The Book-up Page
 o	This page provides information of the different packages available for events. It also allows the user to send a booking request for their special event. There are specific fields set up so the band receives the information needed to see if the event is possible, and also a box for custom text so the user can submit additional information. 
  
