@@ -40,7 +40,15 @@ o	This section provides the users and fans with more visual input into the band 
 
 •	The Book-up Page
 o	This page provides information of the different packages available for events. It also allows the user to send a booking request for their special event. There are specific fields set up so the band receives the information needed to see if the event is possible, and also a box for custom text so the user can submit additional information. 
- 
+
+![ Images from the Website](/assets/img/Bookingpagepackages.png)
+
+![ Images from the Website](/assets/img/Bookingpageform.png)
+
+Gigs
+In the gigs page, site visitors can find information of upcoming events and gigs. Other pictures of the band are placed next to the text, and there is also a video that the band recorded and is publically available in YouTube. This is to provide the visitors a more in depth experience of the band and their music.
+
+
 For some/all of your features, you may choose to reference the specific project files that implement them.
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 Features Left to Implement
