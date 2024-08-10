@@ -4,7 +4,17 @@ Kiss Me Killer
 Kiss Me Killer’s official website is a dynamic online hub designed to connect fans, prospective clients, and music enthusiasts with the electrifying world of this pop-funk-heavy music band. The website serves as a comprehensive resource, keeping fans informed about upcoming gigs and events, showcasing vibrant images and videos, and offering a seamless platform for booking inquiries. With a focus on engaging content, including music samples and exclusive behind-the-scenes glimpses, the site not only keeps the band's loyal followers updated but also attracts new listeners eager to discover Kill Me Killer's unique sound.
 For event organizers and clients looking to add a burst of energy and groove to their events, the website provides an accessible and user-friendly experience for exploring booking options. The combination of captivating visuals, detailed event information, and an easy-to-use contact form ensures that both fans and potential customers can effortlessly engage with the band. Whether you're a long-time supporter or a new listener, the Kill Me Killer website offers an all-encompassing platform to experience the essence of their music and connect with the band like never before.
  
+ This is an image of the actual home page
 ![ Images from the Website](/assets/img/IntroductionWebsite.png)
+
+These are the planning stages on the Wireframes of the Home page:
+
+![ Wireframes](/assets/img/WireframeHome1.png)
+
+This shows the planning on how it would look in smaller screens:
+
+![ Wireframes](/assets/img/WireframeHome2.png)
+
 
 Features
 Existing Features
@@ -36,23 +46,43 @@ o	The footer is valuable to the user as it encourages them to keep connected via
 o	The gallery provides images from members of the band in different situations, as well as posters. There are six images in total, and at the top they all appear in a carousel. 
 o	This section provides the users and fans with more visual input into the band and what their performances are like. 
  
+ This is an image of the Gallery page:
+
 ![ Images from the Website](/assets/img/Gallery.png)
+
+This is the planning Wireframe for the Gallery page:
+
+![ Images from the Website](/assets/img/WireframeGallery.png)
 
 •	The Book-up Page
 o	This page provides information of the different packages available for events. It also allows the user to send a booking request for their special event. There are specific fields set up so the band receives the information needed to see if the event is possible, and also a box for custom text so the user can submit additional information. 
+
+These are two images from the actual Booking us page:
 
 ![ Images from the Website](/assets/img/Bookingpagepackages.png)
 
 ![ Images from the Website](/assets/img/Bookingpageform.png)
 
+This is the wireframes stage of the planning:
+
+![ Images from the Website](/assets/img/WireframeBookingform.png)
+
 Gigs
 In the gigs page, site visitors can find information of upcoming events and gigs. Other pictures of the band are placed next to the text, and there is also a video that the band recorded and is publically available in YouTube. This is to provide the visitors a more in depth experience of the band and their music.
 
+This is an image of the final gibs pages:
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-Features Left to Implement
-•	Another feature idea
+![ Images from the Website](/assets/img/Gigs.png)
+
+This is the wireframes planning stage:
+
+![ Images from the Website](/assets/img/WireframeGigs.png)
+
+Future features:
+•	A feature that would be good to implement in future would be a booking system for the gigs for the band.
+•	Another feature would be a page where the band can present their merchandaise and accept orders for it.
+
+
 Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
