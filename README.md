@@ -1,9 +1,13 @@
 # MilestoneProject1LidiaMorejudo
 Kiss Me Killer 
 
+PURPOSE OF THE WEBSITE
+<br>
 Kiss Me Killer’s official website is a dynamic online hub designed to connect fans, prospective clients, and music enthusiasts with the electrifying world of this pop-funk-heavy music band. The website serves as a comprehensive resource, keeping fans informed about upcoming gigs and events, showcasing vibrant images and videos, and offering a seamless platform for booking inquiries. With a focus on engaging content, including music samples and exclusive behind-the-scenes glimpses, the site not only keeps the band's loyal followers updated but also attracts new listeners eager to discover Kill Me Killer's unique sound.
+<br>
+
 For event organizers and clients looking to add a burst of energy and groove to their events, the website provides an accessible and user-friendly experience for exploring booking options. The combination of captivating visuals, detailed event information, and an easy-to-use contact form ensures that both fans and potential customers can effortlessly engage with the band. Whether you're a long-time supporter or a new listener, the Kill Me Killer website offers an all-encompassing platform to experience the essence of their music and connect with the band like never before.
- 
+ <br>
  This is an image of the actual home page
 ![ Images from the Website](/assets/img/IntroductionWebsite.png)
 
