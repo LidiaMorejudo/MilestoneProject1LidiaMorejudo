@@ -139,7 +139,7 @@ I deployed the project using Github. This is what I did to deploy it:<br>
 <strong>MEDIA, CONTENT AND SUPPORT<strong><br>
 
 Here will go information about media, content and support.
-
+I used https://www.w3schools.com/ as a reference to check code in HTML and CSS, and refresh my memory on how to do certain things in code and what tags are needed for what purposes. For instance, to add a message so users are reassured their message has been received when clicking the button to join the mailing list or to send the information form, I check www.w3schools.com and found the tag onclick="alert('Hello World!')" which I modified with my own message.
 
 
 
