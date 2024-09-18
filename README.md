@@ -113,7 +113,7 @@ Erros 8 to 13 are the saem as 6 to 7, as these refer to the lines of code in the
 
 <strong>TESTING GALLERY PAGE</strong><br>
 
-These are the erros found in the Gallery page:<br>
+These are the errors found in the Gallery page:<br>
 
 ![ Warnings](/assets/img/HTMLcodeerrorsgallery.png)
 <br>
@@ -121,6 +121,8 @@ These are the erros found in the Gallery page:<br>
 1. The error <strong>Bad value image/x-ico n for attribute type on element link: Expected whitespace or a semicolon but saw n instead. In this case I used the incorrect type attribute, it should be /img instead of icon. I have now updated this in the code for the Gallery page.</strong>
 
 2. The second and third error Bad value <strong>assets/img/Gigs 2022.jpeg for attribute src on element img: Illegal character in path segment: space is not allowed</strong> refers to the extra space in the name of the jpg file. I changed the name on the jpg file and then updated the line in the HTML code to Gigs2022.
+
+3. There are also warnings about headers. However, in this section I am not including a header as I just want pictures of the band.
 
 
 
