@@ -88,8 +88,10 @@ Future features:
 •	Another feature would be a page where the band can present their merchandaise and accept orders for it.
 
 
-<strong>Testing<strong>
-I used the validator <strong>https://validator.w3.org/<strong> to test the HTML with the live link: <strong>https://lidiamorejudo.github.io/MilestoneProject1LidiaMorejudo/<strong><br>
+<strong>Testing</strong><br>
+<strong>TESTING INDEX PAGE</strong><br>
+
+I used the validator <strong>https://validator.w3.org/<strong> to test the HTML with the live link: <strong>https://lidiamorejudo.github.io/MilestoneProject1LidiaMorejudo/</strong><br>
 
 Once the live link put in the box and I clicked enter, 13 warnings and errors appeared. The first ones I dealt with were the warnings.<br>
 
@@ -105,7 +107,21 @@ This image shows the errors found by the checker in the index page.<br>
 
 ![ Errors](/assets/img/HTMLcodeerrorsindex.png)
 
-6. This error reminds me that I have closed the nested tags in the incorrect order.I had an "i" tag inside the "a" tag, but I had closed he "a" tag first, leaving the "i" tag outside incorrectly. I have corrected this now in the index page an other pages as this was in the footer with the social media links.
+6 and 7. This error reminds me that I have closed the nested tags in the incorrect order.I had an "i" tag inside the "a" tag, but I had closed he "a" tag first, leaving the "i" tag outside incorrectly. I have corrected this now in the index page an other pages as this was in the footer with the social media links. <br>
+The error in line 7 is related to the previous one <strong>No i element in scope but a i end tag seen.</strong> As the a element and the i element were in the wrong order, it looked like the i element did not have a corresponding opening i element.<br>
+Erros 8 to 13 are the saem as 6 to 7, as these refer to the lines of code in the footer for the social media icons, which are the same code but with different links for differnet social media platforms.<br>
+
+<strong>TESTING GALLERY PAGE</strong><br>
+
+These are the erros found in the Gallery page:<br>
+
+![ Warnings](/assets/img/HTMLcodeerrorsgallery.png)
+<br>
+
+1. The error <strong>Bad value image/x-ico n for attribute type on element link: Expected whitespace or a semicolon but saw n instead. In this case I used the incorrect type attribute, it should be /img instead of icon. I have now updated this in the code for the Gallery page.</strong>
+
+2. The second and third error Bad value <strong>assets/img/Gigs 2022.jpeg for attribute src on element img: Illegal character in path segment: space is not allowed</strong> refers to the extra space in the name of the jpg file. I changed the name on the jpg file and then updated the line in the HTML code to Gigs2022.
+
 
 
 <strong>Deployment<strong>
