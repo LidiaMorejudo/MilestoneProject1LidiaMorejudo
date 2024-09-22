@@ -124,7 +124,17 @@ These are the errors found in the Gallery page:<br>
 
 3. There are also warnings about headers. However, in this section I am not including a header as I just want pictures of the band.
 
+TESTING THE GIGS PAGE
 
+These are the errors and warnings encountered:
+
+![ Warnings](/assets/img/HTMLcodeerrorsgigs.png)
+
+1. This is the same error that appeared before in the other page in the header, and I had forgotten to update it in all pages. The image used for the imaticon is a png, not "icon", so I have changed it to PNG. 
+
+2. I had an extra tag in line 42, effectively opening two divs, but only closing one. I have deleted one of them now.
+
+3. One of the erros indicate that the frameborder attribute has been deprecated in HTML5, so I had to change this setting for CSS, setting the frame border to none.
 
 <strong>Deployment<strong>
 <br>

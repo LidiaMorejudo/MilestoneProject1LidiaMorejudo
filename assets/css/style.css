@@ -333,6 +333,10 @@ body {
   height: 100%;
 }
 
+iframe {
+  border: none; /* Removes border from the iframe */
+}
+
 #mailinglist {
   display: flex;
   justify-content: center;
