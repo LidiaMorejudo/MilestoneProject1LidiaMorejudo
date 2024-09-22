@@ -146,6 +146,12 @@ These are the errors and warnings encountered:
 
 2. The second error refers to the list in the form for the venues. As I hadn't added an empty item in the list, the one selected by default was the first item in the list "weddings". I have added another item, so the user has to select one of the items from the list and the item "wedding" is not selected by default.
 
+CHECKING ERRORS IN CSS
+
+I used the WW3 CSS validator to check for errors: https://jigsaw.w3.org/css-validator/. I checked the four pages on the validator and it did not find any errors.
+
+
+
 <strong>Deployment<strong>
 <br>
 I deployed the project using Github. This is what I did to deploy it:<br>
@@ -158,8 +164,28 @@ I deployed the project using Github. This is what I did to deploy it:<br>
 
 <strong>MEDIA, CONTENT AND SUPPORT<strong><br>
 
+MEDIA
+
+All the pictures, the video and logo used for the website were provided by the band members. They were shared with me freely.
+
+Only the Favicon was obtained from a free online library of images.
+
+THE CONTENT
+
+The content is based on the actual band type of music preferences, however, the descriptions used for the band members and the band are not their own and were made up for this exercise. 
+
+The information about past and upcoming gigs and the venues was made up for this exercise.
+
+SUPPORT
+
 Here will go information about media, content and support.
 I used https://www.w3schools.com/ as a reference to check code in HTML and CSS, and refresh my memory on how to do certain things in code and what tags are needed for what purposes. For instance, to add a message so users are reassured their message has been received when clicking the button to join the mailing list or to send the information form, I check www.w3schools.com and found the tag onclick="alert('Hello World!')" which I modified with my own message.
+
+I also used the w3 validators to check if there were any errors in HTML and CSS.
+
+I used Chat GPT to ask questions about things I did not understand. For instance, the w3 validator is good, but some of the explanations for the errors were difficult to understand if you are starting in coding, so I asked Chat GPT what it meant. I found this useful as the AI explained it with examples. This helped me to fix the errors.
+
+I have also found ideas and answers to queries in the forums of https://stackoverflow.com/. 
 
 
 
