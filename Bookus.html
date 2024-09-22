@@ -94,7 +94,8 @@
                 <input type="tel" id="phonenumber" name="phonenumber" pattern="[0-9]{5}-[0-9]{3}-[0-9]{3}" placeholder="00000-000-000"><br><br>
 
                 <label for="typeevent">Type of Event:</label>
-                <select name="typeevent" id="typeevent" required><br>
+                <select name="typeevent" id="typeevent" required>
+                    <option value="" disabled selected>Select an event</option>
                     <option value="wedding">Wedding</option>
                     <option value="corporate">Corporate Party</option>
                     <option value="birthday">Birthday</option>
@@ -123,7 +124,7 @@
           </textarea><br>
 
             
-          <button type="submit" onclick="alert('Thank you for getting in touch. A member of the band will get in touch shortly')">Submit</button>
+          <button type="submit" onclick="alert('Thank you for getting in touch. A member of the band will get back to you shortly.')">Submit</button>
 
         </form>
     </section>

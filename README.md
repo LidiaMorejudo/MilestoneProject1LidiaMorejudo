@@ -136,6 +136,16 @@ These are the errors and warnings encountered:
 
 3. One of the erros indicate that the frameborder attribute has been deprecated in HTML5, so I had to change this setting for CSS, setting the frame border to none.
 
+TESTING THE BOOKUS PAGE
+
+These are the errors and warnings encountered:
+
+![ Warnings](/assets/img/HTMLcodeerrorsbookus.png)
+
+1. There is an extra <br> inside the select element, which shouldn't be there. I have deleted it now.
+
+2. The second error refers to the list in the form for the venues. As I hadn't added an empty item in the list, the one selected by default was the first item in the list "weddings". I have added another item, so the user has to select one of the items from the list and the item "wedding" is not selected by default.
+
 <strong>Deployment<strong>
 <br>
 I deployed the project using Github. This is what I did to deploy it:<br>
