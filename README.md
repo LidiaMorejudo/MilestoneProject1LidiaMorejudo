@@ -146,6 +146,16 @@ These are the errors and warnings encountered:
 
 2. The second error refers to the list in the form for the venues. As I hadn't added an empty item in the list, the one selected by default was the first item in the list "weddings". I have added another item, so the user has to select one of the items from the list and the item "wedding" is not selected by default.
 
+After checking with my tutor, I was advised that it would be preferable if the details entered on the form were cleared after the user clicked on submit. So, I looked up how I would do this. I ended up with a short Javascript script.
+
+In this script, the different components do the following. There is an event listener, which is  ID "bookingform". It listens for a "submit" event, which is when the user clicks on the submit button.
+
+Although for this project the data entered in the form won't go anywhere, i.e. I don't have a database or a server for this, it seems important in include an event in the script that prevents the browser from carrying out the default behaviour for this type of form, which would be reloading the page or sending the form. event.preventDefault(). If this were not included, the form would still not send the information to a server, as there is no server, however, the Alert message might just appear and disappear quite quickly, and the user might miss it. So, by using this event to prevent the default behaviour, the alert message will appear clearly for the user to understand their data has been "sent". 
+
+The alert Message displays a pop-up to thank the user for their submission and this item of script this.reset() resets the form fields, clearing any text or selections made by the user, bringing it back to its default state.
+
+As now the alert message is on the Java Script the "onclick" event in the HTML is not needed. I have taken it off. 
+
 CHECKING ERRORS IN CSS
 
 I used the WW3 CSS validator to check for errors: https://jigsaw.w3.org/css-validator/. I checked the four pages on the validator and it did not find any errors.
