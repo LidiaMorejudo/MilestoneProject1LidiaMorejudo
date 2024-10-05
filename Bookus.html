@@ -145,6 +145,16 @@
         <p>© 2024 Kiss Me Killer All Rights Reserved</p>
     </footer>
 
+    <script>
+        document.getElementById('bookingform').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+            alert('Thank you for getting in touch. A member of the band will get back to you shortly.');
+    
+            // Reset the form
+            this.reset();
+        });
+    </script>
+    
 </body>
 </html>
 
