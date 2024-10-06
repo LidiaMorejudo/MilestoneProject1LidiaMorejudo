@@ -136,6 +136,9 @@ These are the errors and warnings encountered:
 
 3. One of the erros indicate that the frameborder attribute has been deprecated in HTML5, so I had to change this setting for CSS, setting the frame border to none.
 
+Another error encountered was that when clicking on the submit button when trying to join the mailing list a message comes up to acknowledge it. However, when clicking on OK to close the pop up window an error message ocurrs. This is because the form is set to method "POST", however, as this is a project and there is no server to send these emails to the site throws the error message. To solve this I removed the method POST. If in future the page goes live and there is a server to send this information, then this will be updated.
+
+
 TESTING THE BOOKUS PAGE
 
 These are the errors and warnings encountered:
